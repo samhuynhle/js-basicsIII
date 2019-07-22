@@ -8,22 +8,55 @@
 
 //#1 Biggie Size - Given an array, write a function that changes allpositive numbers in the array to the string "big".
 //Example: makeItBig([-1,3,5,-5]) returns that same array, changed to [-1, "big", "big", -5].
-var testArray = [-1,3,5,-5];
+var testArray = [2,2,5,-5, 10];
 
-function makeItBig(arr){
-    for (var i = 0; i < arr.length; i++){
-        if (arr[i] > 0){
-            arr[i] = 'big';
-        }
-    }
-    return arr;
-}
-console.log(makeItBig(testArray));
+// function makeItBig(arr){
+//     for (var i = 0; i < arr.length; i++){
+//         if (arr[i] > 0){
+//             arr[i] = 'big';
+//         }
+//     }
+//     return arr;
+// }
+// console.log(makeItBig(testArray));
 
 //#2 Print Low, Return High - Create a function that takes in an array of numbers.  
 //The function should print the lowest value in the array, and return the highest value in the array.
 
+// function printLow_ReturnHigh(arr){
+//     var max = arr[0];
+//     var low = arr[0];
+//     for (var i = 0; i < arr.length; i++){
+//         if (arr[i] > max){
+//             max = arr[i];
+//         }
+//         if (arr[i] < low){
+//             low = arr[i];
+//         }
+//     }
+//     console.log(low);
+//     return max;
+// }
+// var printing = printLow_ReturnHigh(testArray);
+// console.log(printing);
 
+//#3 Print One, Return Another - Build a function that takes in an array of numbers.
+//The function should print the second-to-last value in the array, and return the first odd value in the array.
+
+// function printOne_returnAnother(arr){
+//     console.log(arr[arr.length-2]);
+//     var firstOdd = arr[0];
+//     for (var i = 0; i < arr.length; i++){
+//         if (arr[i] % 2 == 1){
+//             firstOdd = arr[i];
+//             break;
+//         }
+//     }
+//     return firstOdd;
+// }
+// console.log(printOne_returnAnother(testArray));
+
+//#4
 
 </script>
 
